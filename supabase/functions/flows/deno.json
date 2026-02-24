@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@resonatehq/supabase": "npm:@resonatehq/supabase@^0.1.11"
+  }
+}
