@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="Supabase Edge — Resonate example" />
+</p>
+
 # Supabase Edge Functions + Resonate
 
 Durable workflows triggered by Supabase Database changes — powered by Resonate.
