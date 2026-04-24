@@ -53,7 +53,7 @@ Deno.serve(async (req) => {
 });
 ```
 
-**Compare to Trigger.dev:** Trigger.dev requires defining tasks in a separate `/trigger` directory and running `trigger.dev dev`. With Resonate, the workflow runs inside your edge function — same process, same file.
+**Why it fits edge functions:** the workflow is defined in the edge function file itself, registered on the `Resonate` client at module load, and invoked directly from the webhook handler. No separate task directory, no auxiliary CLI to run, no coordination between edge-function code and a workflow runtime — same process, same file.
 
 ## Architecture
 
