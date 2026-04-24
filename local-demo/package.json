@@ -8,7 +8,7 @@
     "start:crash": "tsx src/index.ts --crash"
   },
   "dependencies": {
-    "@resonatehq/sdk": "^0.9.6"
+    "@resonatehq/sdk": "^0.10.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.0",
